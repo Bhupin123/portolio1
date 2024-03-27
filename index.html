@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== UNICONS ===============-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>Portfolio Website</title>
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">Bh<span>up</span>in</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link active-link">Home</a></li>
+
+          <li><a href="#about" class="nav__link">About</a></li>
+
+          <li><a href="#services" class="nav__link">Services</a></li>
+
+          <li><a href="#portfolio" class="nav__link">Portfoliio</a></li>
+
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+
+          <li><a href="login.html" class="nav__link">Account</a></li>
+
+          <li><a download="" href="assets/Magar (1).pdf" class="nav__link">Resume</a></li>
+
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class="ui uil-times"></i>
+        </div>
+      </div>
+
+      <div class="nav__socials">
+
+        <a href="https://www.linkedin.com" target="_blank"
+        class="nav__social-link">
+       <i class="uil uil-linkedin"></i></a>
+
+       <a href="https://www.instagram.com" target="_blank"
+       class="nav__social-link">
+      <i class="uil uil-instagram-alt"></i></a>
+
+      <a href="https://www.facebook.com" target="_blank"
+      class="nav__social-link">
+     <i class="uil uil-facebook-f"></i></a>
+
+     <a href="https://www.twitter.com" target="_blank"
+      class="nav__social-link">
+     <i class="uil uil-twitter-alt"></i></a>
+    </div>
+
+<div class="nav__btns">
+  <a href="#contact" class="nav__link-btn btn">Let's Talk</a>
+
+<div class="nav__toggle" id="nav-toggle">
+  <i class="uil uil-bars"></i>
+</div>
+
+</div>
+
+    </nav>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== HOME ===============-->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <div class="home__content">
+          <span class="home__subtitle">Welcome To My World</span>
+          <h1 class="home__title">
+            Hi I'm Bhupin Thapa Magar <span>Software Developer </span>anchored in Nepal.
+          </h1>
+        </div>
+
+        <img src="assets/img/home.jpg" alt="" class="home__img">
+      </div>
+    </section>
+
+
+    <!--=============== ABOUT ===============-->
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <img src="assets/img/about.jpg" alt="" class="about__img">
+        <div class="about__content">
+          <h2 class="section__title">About Me</h2>
+
+          <p class="about__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam temporibus labore quaerat assumenda
+            laborum. Ea ipsa, quasi praesentium voluptas in hic odit, dolorem, laboriosam rerum deserunt doloremque
+            tempore qui similique reprehenderit architecto a eum aperiam ipsam dignissimos corrupti maiores temporibus
+            nihil rem! Ab, et sit. Laboriosam necessitatibus sequi numquam saepe.
+          </p>
+          <div class="tabs__btns">
+            <span class="tabs__btn tab__active" data-target="#skills">Main Skills</span>
+            <span class="tabs__btn" data-target="#award">Award</span>
+            <span class="tabs__btn" data-target="#experience">Experience</span>
+            <span class="tabs__btn" data-target="#education">Education & Certification</span>
+          </div>
+
+          <div class="tabs__content">
+            <div class="tabs__item tab__active" data-content id="skills">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>User experience design</span> - UI/UX
+                  <span>Delight the user aand make it work.</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>User experience design</span> - UI/UX
+                  <span>Delight the user aand make it work.</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>User experience design</span> - UI/UX
+                  <span>Delight the user aand make it work.</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="tabs__item" data-content id="award">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>Java </span> - winner
+                  <span>2022 - 2023</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>App Development</span> - winner
+                  <span>2020 - 2021</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Web Design</span> - Runner up
+                  <span>2018 - 2019<span>
+                </p>
+              </div>
+            </div>
+
+            <div class="tabs__item" data-content id="experience">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>App Development </span> - eflair WebTech
+                  <span>2023-current</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Sr.Front-end</span> - Microsoft
+                  <span>2021-2022</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Front-end</span> - Google
+                  <span>2019-2020</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="tabs__item" data-content id="education">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>BIT</span> - Texas College of Management and IT, Chabahil
+                  <span>2023-current</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Diploma in Computer Science</span> - Herald Int'l College, Basundhara
+                  <span>2022</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>+2</span> - Herald Int'l College, Basundhara
+                  <span>2021</span>
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== SERVICES ===============-->
+    <section class="services section" id="services">
+      <h2 class="section__title">My Service</h2>
+      <p class="section__description">There are many Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+        enim!
+      </p>
+
+      <div class="services__container container grid">
+        <div class="services__item ">
+          <i class="uil uil-apps  services__icon"></i>
+          <h3 class="services__title">Testing New Software</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, laboriosam.</p>
+        </div>
+
+        <div class="services__item">
+          <i class="uil uil-users-alt services__icon"></i>
+          <h3 class="services__title">Marketing Strategy</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, laboriosam.</p>
+        </div>
+
+        <div class="services__item">
+          <i class="uil uil-layer-group  services__icon"></i>
+          <h3 class="services__title">Repoting</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, laboriosam.</p>
+        </div>
+
+        <div class="services__item">
+          <i class="uil uil-game-structure  services__icon"></i>
+          <h3 class="services__title">Game Development</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, laboriosam.</p>
+        </div>
+
+        <div class="services__item">
+          <i class="uil uil-rss-interface  services__icon"></i>
+          <h3 class="services__title">Web Development</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, laboriosam.</p>
+        </div>
+
+        <div class="services__item">
+          <i class="uil uil-graph-bar  services__icon"></i>
+          <h3 class="services__title">Business</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, laboriosam.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!--=============== PORTFOLIO ===============-->
+<section class="portfolio secton" id="portfolio">
+  <h2 class="section__title">My Project</h2>
+  <p class="section__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, at? Qui dolores eos eum velit.</p>
+
+  <div class="portfolio__container container grid">
+    <div class="portfolio__item">
+      <img 
+      src="assets/img/portfolio-6.jpg" 
+      alt="" 
+      class="portfolio__img"
+      />
+
+      <div class="portfolio__data">
+        <p class="portfolio__subtitle">Design</p>
+        <h3 class="portfolio__title">Web-Development</h3>
+        <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugit quaerat tempore quam eligendi nesciunt!</p>
+      </div>
+    </div>
+
+    <div class="portfolio__item">
+      <img 
+      src="assets/img/portfolio-3.jpg" 
+      alt="" 
+      class="portfolio__img"
+      />
+
+      <div class="portfolio__data">
+        <p class="portfolio__subtitle">Development</p>
+        <h3 class="portfolio__title">Web Design</h3>
+        <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugit quaerat tempore quam eligendi nesciunt!</p>
+      </div>
+    </div>
+
+    <div class="portfolio__item">
+      <img 
+      src="assets/img/portfolio-4.jpg" 
+      alt="" 
+      class="portfolio__img"
+      />
+
+      <div class="portfolio__data">
+        <p class="portfolio__subtitle">Design</p>
+        <h3 class="portfolio__title">Software Development</h3>
+        <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugit quaerat tempore quam eligendi nesciunt!</p>
+      </div>
+    </div>
+
+    <div class="portfolio__item">
+      <img 
+      src="assets/img/portfolio-5.jpg" 
+      alt="" 
+      class="portfolio__img"
+      />
+
+      <div class="portfolio__data">
+        <p class="portfolio__subtitle">Development</p>
+        <h3 class="portfolio__title">Full-Stack Development</h3>
+        <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugit quaerat tempore quam eligendi nesciunt!</p>
+      </div>
+    </div>
+
+    <div class="portfolio__item">
+      <img 
+      src="assets/img/portfolio-1.jpg" 
+      alt="" 
+      class="portfolio__img"
+      />
+
+      <div class="portfolio__data">
+        <p class="portfolio__subtitle">Learning</p>
+        <h3 class="portfolio__title">Machine Learning</h3>
+        <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugit quaerat tempore quam eligendi nesciunt!</p>
+      </div>
+    </div>
+
+
+    <div class="portfolio__item">
+      <img 
+      src="assets/img/portfolio-2.jpg" 
+      alt="" 
+      class="portfolio__img"
+      />
+
+      <div class="portfolio__data">
+        <p class="portfolio__subtitle">App Design</p>
+        <h3 class="portfolio__title">Weather Checker</h3>
+        <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugit quaerat tempore quam eligendi nesciunt!</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+    <!--=============== CONTACT ===============-->
+    <section class="contact section" id="contact">
+<div class="contact__container container grid">
+  <div class="contact__content">
+    <h2 class="section__title">Utilize My Skills</h2>
+    <p class="contact__description">
+      I'm open to freelance opportunities. Feel free to get in touch with me via phone: <a href="tel: +9779823065726">9823065726</a> or email: <a href="mailto:bhupin.thapa.magar@gmail.com">bhupin.thapa.magar@gmail.com</a></p>
+
+      <form  class="contact__form" id="contact-form">
+        <div class="contact__form-input">
+          <input 
+          type="text" 
+          name="name" 
+          placeholder="Your Name *"
+          class="contact__input"
+          id="contact-name"
+           />
+        </div>
+
+        <div class="contact__form-input">
+          <input 
+          type="email" 
+          name="email" 
+          placeholder="Your E-mail *"
+          class="contact__input"
+          id="contact-email"
+           />
+        </div>
+
+        <div class="contact__form-input">
+          <input 
+          type="text" 
+          name="subject" 
+          placeholder="Write a Subject "
+          class="contact__input"
+          id="contact-subject"
+           />
+        </div>
+
+        <div class="contact__form-input">
+          <textarea name="message" id="contact-message" class="contact__input textarea" placeholder="Your Message"></textarea>
+        </div>
+
+        <input type="submit" value="Submit" class="btn" />
+
+        <p class="error__message" id="error-message"></p>
+      </form>
+
+  </div>
+
+    <img src="assets/img/contact.jpg" alt="" class="contact__img"> 
+</div>
+    </section>
+
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer">
+    <div class="footer__container container grid">
+      <a href="index.html" class="footer__logo">Bh<span>up</span>in</a>
+      <div class="footer__socials">
+
+        <a href="https://www.linkedin.com" target="_blank"
+        class="footer__social-link">
+       <i class="uil uil-linkedin"></i></a>
+
+       <a href="https://www.instagram.com" target="_blank"
+       class="footer__social-link">
+      <i class="uil uil-instagram-alt"></i></a>
+
+      <a href="https://www.facebook.com" target="_blank"
+      class="footer__social-link">
+     <i class="uil uil-facebook-f"></i></a>
+
+     <a href="https://www.twitter.com" target="_blank"
+      class="footer__social-link">
+     <i class="uil uil-twitter-alt"></i></a>
+
+      </div>
+
+      <p class="footer__copyright">&copy; 2024. All rights reserved.Bhupin Magar</p>
+    </div>
+  </footer>
+
+  <!--=============== SCROLL UP ===============-->
+<a href="#" class="scrollup" id="scroll-up">
+  <i class="uil uil-angle-up scrollup__icon"></i>
+</a>
+  <!--=============== EMAIL JS ===============-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
